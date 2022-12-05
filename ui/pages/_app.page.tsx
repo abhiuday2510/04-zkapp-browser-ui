@@ -7,7 +7,7 @@ import {
   PrivateKey,
   Field,
 } from 'snarkyjs'
-let transactionFee = 0.1;
+let transactionFee = 0.0;
 
 export default function App() {
   let [state, setState] = useState({
